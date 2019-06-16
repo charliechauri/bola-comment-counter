@@ -1,1 +1,5 @@
 node_modules
+
+# E2E tests
+chromedriver.log
+e2e-tests/tests_output

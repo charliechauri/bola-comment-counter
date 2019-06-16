@@ -1,0 +1,15 @@
+:root {
+  --colorPrimary: hsl(180, 100%, 27%);
+  --colorPrimaryDarken: hsl(180, 100%, 15%);
+  --colorSecondary: hsl(248, 39%, 39%);
+  --colorSecondaryDarken: hsl(248, 39%, 30%);
+  --colorDark: hsl(0, 0%, 13%);
+  --colorDarken: hsl(0, 0%, 8%);
+  --colorLight: hsl(0, 0%, 100%);
+  --colorLightDarken: hsl(0, 0%, 50%);
+  --primaryFont: 'Courier New', Courier, monospace;
+}
+
+body {
+  font-family: var(--primaryFont);
+}

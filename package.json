@@ -5,12 +5,16 @@
   "main": "index.js",
   "scripts": {
     "start": "lite-server -c configs/lite-server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "babel-jest": "^24.8.0",
+    "jest": "^24.8.0",
     "lite-server": "^2.5.3"
   }
 }

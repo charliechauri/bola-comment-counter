@@ -1,3 +1,5 @@
+/// <reference types="nightwatch" />
+
 const createTestServer = require('./test-server');
 const {
   section,
